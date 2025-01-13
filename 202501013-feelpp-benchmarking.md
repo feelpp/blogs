@@ -2,6 +2,10 @@
 
 In the context of High Performance Computing, it is crucial to understand how applications perform in different systems and architectures. However, finding a benchmarking tool that combines flexibility, robustness, reproducibility of results, and a complete and easy to use pipeline that goes from benchmarking to generating comprehensive reports, can be quite challenging. 
 
+|   |   |
+| --- | --- |
+| ![Benchmarking Dashboard](dasbhoard-base.png) | ![Benchmarking Applications](dashboard-applications.png) |
+
 ## Why feelpp.benchmarking?
 This is where the *feelpp.benchmarking* tool comes in hand.    
 Built on top of [ReFrame](https://reframe-hpc.readthedocs.io/en/stable/), this application was conceived to facilitate and automate benchmarking tasks for HPC users, as well as to provide users and organizations a centralized platform to aggregate and display results in the form of a dashboard.  
@@ -30,6 +34,10 @@ Then, using ReFrame, execution environments will be set up depending on the indi
 Finally, the application will store a set of ReFrame generated reports, and will create or update a JSON file describing all performed benchmarks. This file is then used to handle the dashboard generation.  
 Depending on the specified machine-application-use case combination, multiple views will be generated as asciidoc files, containing instructions on the rendering of the report figures. The [Antora](https://antora.org) framework will take responsibility in compiling the documentation into an HTML dashboard.   
 This part of the workflow is also in charge of aggregating reports depending on the views. For example, it will be possible to see the progression of an application over time, as well as to compare how multiple systems and platforms perform for a specific application.
+
+|   |   |
+| --- | --- |
+| ![Benchmarking Supercomputers](dashboard-supercomputers.png) | ![Benchmark Glimpse](dashboard-benchmark-glimpse.png) |
 
 ## Notable Features
 
