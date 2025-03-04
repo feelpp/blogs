@@ -4,7 +4,7 @@ In the context of High Performance Computing, it is crucial to understand how ap
 
 |   |   |
 | --- | --- |
-| ![Benchmarking Dashboard](dasbhoard-base.png) | ![Benchmarking Applications](dashboard-applications.png) |
+| ![Benchmarking Dashboard](https://github.com/feelpp/blogs/blob/main/dasbhoard-base.png) | ![Benchmarking Applications](https://github.com/feelpp/blogs/blob/main/dashboard-applications.png) |
 
 ## Why feelpp.benchmarking?
 This is where the *feelpp.benchmarking* tool comes in hand.    
@@ -37,7 +37,7 @@ This part of the workflow is also in charge of aggregating reports depending on 
 
 |   |   |
 | --- | --- |
-| ![Benchmarking Supercomputers](dashboard-supercomputers.png) | ![Benchmark Glimpse](dashboard-benchmark-glimpse.png) |
+| ![Benchmarking Supercomputers](https://github.com/feelpp/blogs/blob/main/dashboard-supercomputers.png) | ![Benchmark Glimpse](https://github.com/feelpp/blogs/blob/main/dashboard-benchmark-glimpse.png) |
 
 ## Notable Features
 
